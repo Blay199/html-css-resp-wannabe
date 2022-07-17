@@ -80,12 +80,6 @@ img {
     width: 50%;
 }
 
-@media (max-width: 480px) {
-    .lessons .col {
-        width: 100%;
-    }
-}
-
 .lessons .col img {
     height: 200px;
     margin-bottom: 1rem;
@@ -107,8 +101,6 @@ img {
 .steps .col {
     width: calc(100% / 3);
 }
-
-@media (max-width: 100% / 1)
 
 .steps .col img {
     height: 200px;
@@ -135,3 +127,13 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ @media (max-width: 480px) {
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: calc(100% / 1);        
+    }
+}
