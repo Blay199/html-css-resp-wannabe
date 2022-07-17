@@ -129,11 +129,28 @@ img {
  ************************************************/
 
  @media (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
     .lessons .col {
         width: 100%;
     }
 
     .steps .col {
         width: calc(100% / 1);        
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin-top: -50px;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
     }
 }
